@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">내 몸 사용 설명서</string>
+
+    <!--Fragment1-->
+    <string name="btn1_mainPage">검사</string>
+    <string name="btn2_mainPage">프로그램</string>
+    <string name="btn3_mainPage">커뮤니티</string>
+    <string name="btn4_mainPage">마이페이지</string>
+
+
+    <!--Fragment2-->
+    <!--Select Test Page-->
+    <string name="title_test_main">검사</string>
+    <string name="test_diet_free">식이 검사: 무료</string>
+    <string name="test_drink_free">음주 검사: 무료</string>
+    <string name="test_love_free">사랑 검사: 무료</string>
+    <string name="test_diet_charge">너무 많이 먹는 나... 원인 분석하기: 유료</string>
+
+    <!--Diet Test-->
+    <string name="diet_testing">식이 검사</string>
+    <string name="info">질문</string>
+    <string name="info_tv1">매우나쁨</string>
+    <string name="info_tv2">나쁨</string>
+    <string name="info_tv3">보통</string>
+    <string name="info_tv4">좋음</string>
+    <string name="info_tv5">매우좋음</string>
+
+    <string name="question">검사 문항</string>
+    <string name="btn_submit">결과보기</string>
+
+    <!--Diet Test Result-->
+    <string name="test_result">검사 결과</string>
+    <string name="result_explain">설명문</string>
+    <string name="see_details">더 자세히 알아보기(유료)</string>
+
+
+
+    <!--Fragment3-->
+    <string name="title_program_main">프로그램</string>
+    <string name="btn_pay">결제하기</string>
+
+    <!--Fragment4-->
+    <string name="title_mypage_main">마이페이지</string>
+
+</resources>

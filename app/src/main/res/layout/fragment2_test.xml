@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/title_test_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="@string/title_test_main"
+        />
+
+    <Button
+        android:id="@+id/test_diet_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_diet_free"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title_test_main"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/test_drink_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_drink_free"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/test_diet_free"
+        android:padding="20dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/test_love_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_love_free"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/test_drink_free"
+        android:padding="20dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/test_diet_charge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_diet_charge"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/test_love_free"
+        android:padding="20dp"
+        android:layout_margin="10dp"/>
+</RelativeLayout>
